@@ -1,6 +1,6 @@
 # DietPi-Proxmox-LXC-container
-Download and create a DietPi LXC container template wie simple shell script
-Does simple things, download DietPi Bookworm Image, mounts, make a tar file for Proxmox and put it in.
+Download and create a DietPi LXC container template wie simple shell script  
+Does simple things, download DietPi Bookworm Image, mounts, make a tar file for Proxmox and put it in.  
 Why Bookworm not Trixie? Ask Proxmox, they don't like Debian 13... 
 
 ## HOW TO USE?
@@ -12,11 +12,15 @@ Why Bookworm not Trixie? Ask Proxmox, they don't like Debian 13...
 
 ## IMPORTANT STUFF
 
-After creating LXC container from template, go to Container -> Options -> Console mode => CHANGE to "shell"
-Why? Because for some reasons, you get a blank screen and this is the easiest workaround for that...
+> [!IMPORTANT]
+>After creating LXC container from template, go to Container -> Options -> Console mode => CHANGE to "shell"  
+>Why? Because for some reasons, you get a blank screen and this is the easiest workaround for that...
 
-ALSO if for some reason, DietPi doesn't detect any network connection, just shutdown the LXC container and start it again...
-Sooner or later it will work out with Proxmox and then it will work just fine ^^
+> [!TIP]
+>ALSO if for some reason, DietPi doesn't detect any network connection, just shutdown the LXC container and start it again...  
+>Sooner or later it will work out with Proxmox and then it will work just fine ^^
 
 ### Why DietPi as LXC instead of VM?
 Because I can...
+
+###### Also Github... why the F do I need to add two spaces for a simple NewLine? Are you Micro$oft in BigBrain-Time?
