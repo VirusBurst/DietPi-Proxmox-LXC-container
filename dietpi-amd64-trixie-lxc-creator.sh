@@ -28,8 +28,9 @@ echo "Make it accessible..."
 mount /dev/nbd0p1 "$MOUNTDIR"
 
 # Kill pesky DietPi CloudShell
-#rm -f /mnt/dietpi-img/etc/systemd/system/multi-user.target.wants/dietpi-cloudshell.service
-#rm -f /mnt/dietpi-img/etc/systemd/system/dietpi-cloudshell.service
+echo "Kill pesky DietPi CloudShell!!!"
+rm -f /mnt/dietpi-img/etc/systemd/system/multi-user.target.wants/dietpi-cloudshell.service
+rm -f /mnt/dietpi-img/etc/systemd/system/dietpi-cloudshell.service
 
 # Tarball w/ zstd REcompress
 echo "Packing DietPi Proxmox image to LXC image..."
