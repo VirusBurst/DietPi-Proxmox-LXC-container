@@ -39,7 +39,8 @@ echo "DONE :)"
 
 # cleanup
 echo "Unmount DietPi Proxmox image..."
-umounqemu-nbd -d /dev/nbd0
+umount "$MOUNTDIR"
+qemu-nbd -d /dev/nbd0
 sleep 1
 echo "Disable mounting QCOW2 files..."
 rmmod nbd
