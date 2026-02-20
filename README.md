@@ -5,7 +5,7 @@ Why Bookworm not Trixie? Ask Proxmox, they don't like Debian 13...
 
 ## HOW TO USE?
 
-1. ```wget https://raw.githubusercontent.com/VirusBurst/DietPi-Proxmox-LXC-container/refs/heads/main/dietpi-amd64-Bookworm-lxc-creator.sh```
+1. ```wget https://raw.githubusercontent.com/VirusBurst/DietPi-Proxmox-LXC-container/refs/heads/main/dietpi-amd64-[...]-lxc-creator.sh```
 2. ```chmod +x dietpi-amd64-Bookworm-lxc-creator.sh```
 3. ```./dietpi-amd64-Bookworm-lxc-creator.sh```
 4. profit?
